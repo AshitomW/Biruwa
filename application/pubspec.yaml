@@ -1,0 +1,34 @@
+name: biruwa
+description: A new Flutter project.
+
+# The following line is required for Flutter projects.
+publish_to: "none" # Remove this line if you are publishing your package.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.11.0+2 # Add your camera package here
+  permission_handler: ^11.3.1
+  http: ^1.2.2
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  google_fonts: ^6.2.1
+
+  # Add other dependencies here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/file.png
+    - assets/flower_pot.png
