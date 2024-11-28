@@ -1,0 +1,46 @@
+.env                          # Virtual environment/Environment variables file
+
+# Jupyter Notebooks
+# Logs
+*.log                         # Log files
+logs/                         # Log directory, if you use it
+
+# Data files (avoid uploading datasets)
+data/
+*.csv                         # CSV files (e.g., dataset files)
+*.tsv                         # TSV files
+*.json                        # JSON dataset or other large files
+*.db                          # Database files
+
+# Model files
+# Configuration files
+config.yaml                   # Configuration file (optional to ignore if you have local configs)
+
+# System Files (OS-specific)
+.DS_Store                     # macOS file
+Thumbs.db                     # Windows file
+desktop.ini                   # Windows desktop file
+
+# Cache and temporary files
+*.cache                       # Cache files
+*.tmp                         # Temporary files
+*.out                         # Output files
+
+# Environment-specific
+*.env                         # Environment variable files (if using .env files)
+
+# Dependency and Package Managers
+Pipfile
+Pipfile.lock
+requirements.txt              # Include this only if you're auto-generating the requirements
+
+# IDE-specific files
+.vscode/                      # VSCode settings folder
+.idea/                        # JetBrains IDEs folder (PyCharm, WebStorm, etc.)
+
+env/
+venv/
+
+.ipynb_checkpoints/
+*.h5
+*.JPG
