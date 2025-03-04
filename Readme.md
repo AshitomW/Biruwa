@@ -50,7 +50,7 @@ cd application
 ```bash
 flutter pub get
 ```
-3. Set The Ip Address Of The Server Hosting Model In requests.dart
+3. Set the IP address of the server hosting the model in requests.dart
 ```dart
 final url = Uri.parse("[ip_address]/predict");
 ```
